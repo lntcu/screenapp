@@ -10,8 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-		Text("Daniel")
-			.font(.title.weight(.medium).width(.expanded))
+		VStack {
+			Text("Daniel")
+				.font(.title.weight(.medium).width(.expanded))
+				.foregroundStyle(.white)
+		}
+		.frame(maxWidth: .infinity, maxHeight: .infinity)
+		.ignoresSafeArea()
+		.background(.black)
     }
 }
 
