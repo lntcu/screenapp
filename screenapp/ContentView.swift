@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 		VStack {
-			Text("Daniel")
+			Text("Ashmi")
 				.font(.title.weight(.medium).width(.expanded))
 				.foregroundStyle(.white)
 		}
